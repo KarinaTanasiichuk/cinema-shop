@@ -19,7 +19,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Main {
-    public static final Injector injector = Injector.getInstance("mate.academy");
+    public static final Injector injector = Injector.getInstance("cinema");
 
     public static void main(String[] args) throws RegistrationException, AuthenticationException {
         MovieService movieService = (MovieService) injector.getInstance(MovieService.class);
